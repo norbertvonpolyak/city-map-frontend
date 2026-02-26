@@ -79,21 +79,20 @@ Autocomplete logic uses a debounced useEffect.
 The project currently uses the public OpenStreetMap Nominatim API.
 
 For production use:
-
-A backend proxy should be implemented
-
-Rate limiting should be handled server-side
+- A backend proxy should be implemented
+- Rate limiting should be handled server-side
 
 ---
 
 ## 📌 Future Improvements
 
-Backend preview endpoint integration
+- Backend preview endpoint integration
+- Bounding box computation
+- Style preset selector
+- Keyboard navigation for autocomplete
+- Production-ready geocoding proxy
 
-Bounding box computation
+---
 
-Style preset selector
-
-Keyboard navigation for autocomplete
-
-Production-ready geocoding proxy
+## 📄 License
+MIT
