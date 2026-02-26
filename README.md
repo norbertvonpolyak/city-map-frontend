@@ -43,7 +43,7 @@ cd city-map-frontend
 ```
 
 Install dependencies:
-```
+```bash
 npm install
 ```
 
