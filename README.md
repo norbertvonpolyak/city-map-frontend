@@ -52,3 +52,48 @@ Then open:
 ```bash
 [npm run dev](http://localhost:5173)
 ```
+
+---
+
+## 🧠 Architecture Overview
+
+State is lifted to App.jsx:
+- selectedLocation
+- extent
+- searchQuery
+- suggestions
+
+MapPicker handles:
+- Map rendering
+- Marker
+- Circle
+- Fly-to behavior
+- Click events
+
+Autocomplete logic uses a debounced useEffect.
+
+---
+
+## ⚠️ Notes
+
+The project currently uses the public OpenStreetMap Nominatim API.
+
+For production use:
+
+A backend proxy should be implemented
+
+Rate limiting should be handled server-side
+
+---
+
+## 📌 Future Improvements
+
+Backend preview endpoint integration
+
+Bounding box computation
+
+Style preset selector
+
+Keyboard navigation for autocomplete
+
+Production-ready geocoding proxy
