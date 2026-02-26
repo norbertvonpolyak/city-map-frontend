@@ -40,3 +40,5 @@ Clone the repository:
 ```bash
 git clone https://github.com/norbertvonpolyak/city-map-frontend.git
 cd city-map-frontend
+
+
