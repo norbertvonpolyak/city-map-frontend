@@ -36,15 +36,19 @@ This frontend allows users to:
 ## 🛠 Installation
 
 Clone the repository:
-
 ```bash
 git clone https://github.com/norbertvonpolyak/city-map-frontend.git
 cd city-map-frontend
 ```
-
 Install dependencies:
 ```bash
 npm install
 ```
-
-
+Start development server:
+```bash
+npm run dev
+```
+Then open:
+```bash
+[npm run dev](http://localhost:5173)
+```
